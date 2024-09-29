@@ -17,11 +17,11 @@
 				display: flex;
 				justify-content: center;
 				align-items: center;
-                width: 60%;
-                height: 100px;
+				width: 60%;
+				height: 100px;
 				top: 0;
 				right: 0;
-                padding-top: 40px;
+				padding-top: 40px;
 				z-index: 9999999;
 				overflow: hidden;
 			}
@@ -48,6 +48,34 @@
 			top: 30%;
 			justify-content: center;
 			align-items: center;
+		}
+	}
+
+	.wrapper {
+		.about-box {
+			justify-content: center;align-items: center;
+			flex-direction: row;
+			.about-img {
+				width: 50%;
+				margin-right: 3em;
+			}
+			.about-text {
+				.section-title {
+					left: -35%;
+				}
+				p {
+					align-self: stretch;
+				}
+			}
+		}
+		.studio {
+			flex-direction: row-reverse;
+			.studio-text {
+				.section-title {
+					left: 100%;
+					margin-bottom: 100px;
+				}
+			}
 		}
 	}
 }
